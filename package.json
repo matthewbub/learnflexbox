@@ -3,41 +3,34 @@
   "version": "1.1",
   "private": false,
   "dependencies": {
-    "@primer/components": "^20.0.0",
-    "@primer/css": "^15.0.0",
-    "@primer/octicons-react": "^10.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "moment": "^2.27.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-test-renderer": "^16.13.1",
     "styled-components": "^5.1.1",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "vite": "^7.3.1"
   },
   "devDependencies": {
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "stylelint": "^13.6.1",
-    "stylelint-config-standard": "^20.0.0",
     "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
     "stylelint-prettier": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,ts,jsx}\"",
     "prettier-docs": "prettier --config .prettierrc --write \"**/*.md\"",
     "prettier-style": "prettier --config .prettierrc --write \"**/*.css\"",
-    "lint": "yarn lint:js && yarn lint:style",
+    "lint": "pnpm run lint:js && pnpm run lint:style",
     "lint:js": "eslint --cache \"**/*.{js,jsx,ts,tsx}\"",
     "lint:style": "stylelint \"**/*.css\""
   },
@@ -55,23 +48,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "yarn prettier",
-      "yarn eslint --fix"
-    ],
-    "*.md": [
-      "yarn prettier-docs"
-    ],
-    "*.css": [
-      "yarn prettier-style",
-      "yarn lint:style"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
