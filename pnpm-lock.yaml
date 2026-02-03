@@ -18,8 +18,8 @@ dependencies:
     specifier: 1.6.1
     version: 1.6.1(react@19.2.4)
   moment:
-    specifier: 2.27.0
-    version: 2.27.0
+    specifier: 2.29.4
+    version: 2.29.4
   react:
     specifier: 19.2.4
     version: 19.2.4
@@ -9109,8 +9109,8 @@ packages:
     dependencies:
       minimist: 1.2.8
 
-  /moment@2.27.0:
-    resolution: {integrity: sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==}
+  /moment@2.29.4:
+    resolution: {integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==}
     dev: false
 
   /move-concurrently@1.0.1:
