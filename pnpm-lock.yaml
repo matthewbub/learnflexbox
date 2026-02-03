@@ -14,6 +14,9 @@ dependencies:
   '@testing-library/user-event':
     specifier: 7.1.2
     version: 7.1.2(@testing-library/dom@10.4.1)
+  '@vercel/analytics':
+    specifier: ^1.6.1
+    version: 1.6.1(react@19.2.4)
   moment:
     specifier: 2.27.0
     version: 2.27.0
@@ -2911,6 +2914,35 @@ packages:
       typescript: 3.9.7
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@vercel/analytics@1.6.1(react@19.2.4):
+    resolution: {integrity: sha512-oH9He/bEM+6oKlv3chWuOOcp8Y6fo6/PSro8hEkgCW3pu9/OiCXiUpRUogDh3Fs3LH2sosDrx8CxeOLBEE+afg==}
+    peerDependencies:
+      '@remix-run/react': ^2
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19 || ^19.0.0-rc
+      svelte: '>= 4'
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@remix-run/react':
+        optional: true
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
+    dependencies:
+      react: 19.2.4
     dev: false
 
   /@webassemblyjs/ast@1.8.5:
