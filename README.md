@@ -1,8 +1,9 @@
 # Learn Flexbox
 
-[Learn Flexbox](http://learnflexbox.us/) is commited to helping individuals become fluent in basics of the Flexible Box Layout.
+[Learn Flexbox](https://learnflexbox-silk.vercel.app/) is commited to helping individuals become fluent in basics of the Flexible Box Layout.
 
-[![Build Status](https://travis-ci.com/hi-matbub/learnflexbox.svg?branch=master)](https://travis-ci.com/hi-matbub/learnflexbox) ![tested](https://img.shields.io/badge/tested_with-jest-<COLOR>.svg) ![eslint-prettier-stylelint](https://img.shields.io/badge/code_style-eslint_prettier_stylelint-<COLOR>.svg) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-30bced.svg)
+
+![tested](https://img.shields.io/badge/tested_with-jest-<COLOR>.svg) ![eslint-prettier-stylelint](https://img.shields.io/badge/code_style-eslint_prettier_stylelint-<COLOR>.svg) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-30bced.svg)
 
 ## Setup
 
